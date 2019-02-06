@@ -4,8 +4,8 @@ namespace OOP_Introduction
 {
   class Person
   {
-    string firstName;
-    string lastName;
+    public string firstName;
+    public string lastName;
 
     // class variables as properties
     //public string firstName { get; set; }
@@ -18,7 +18,7 @@ namespace OOP_Introduction
     ///   in a printable version
     /// </summary>
     /// <returns>Person's full name</returns>
-    string getName()
+    public string getName()
     {
       return firstName + " " + lastName;
     }

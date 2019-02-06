@@ -14,7 +14,7 @@ namespace OOP_Introduction
       };
 
       // after fixing access permissions
-      //Debug.WriteLine(Student.getName());
+      Debug.WriteLine(Student.getName());
 
       // using the constructor
       Person Teacher = new Person();
